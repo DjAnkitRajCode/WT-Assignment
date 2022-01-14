@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- favicon -->
+   <link rel="icon" href="image/logo.png" >
+   <!-- CSS Linked -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Title -->
+   <title>OOP Principle</title>
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body class="SlideBackground">
+    <div class="mainTitle text-center">OOP Principle</div>
+    <div class="subTitle">Definition of OOPS Concepts in Java</div>
+    <p class="paragraph">
+        So we can define OOP programming as:<br>
+        “Object-oriented programming is an approach that modularizes programs by creating a partitioned memory area for both functions and data that can be used as templates for creating copies of such modules on demand.”
+    </p>
+
+    <div class="subTitle">OOPS Paradigm </div>
+    <div class="paragraph">
+        The primary objective of the object-oriented approach is to eliminate some of the pitfalls that exist in the procedural approach.
+    </div>
+    <img src="image/data.png" alt="Data" class="d-block mx-auto">
+    <div class="paragraph">
+        Object = Method + Data<br>
+        The data of an object is accessed by the methods associated with that object. However, the methods of an object can access methods of other objects. 
+    </div>
+
+    <div class="subTitle">Features of OOPS</div>
+    <p class="paragraph">Some features of object-oriented programming in java are: </p>
+    <ul class="paragraph">
+        <li class="paragraph">Emphasis is on data than procedures</li>
+        <li class="paragraph">Programs are divided into objects</li>
+        <li class="paragraph">Data Structures are designed to characterize objects.</li>
+        <li class="paragraph">Methods operating on the data of an object are tied together in the data structure.</li>
+        <li class="paragraph">Data is hidden, and external functions cannot access it.</li>
+        <li class="paragraph">Objects communicate with each other through methods</li>
+        <li class="paragraph">New methods and data can be easily added whenever necessary</li>   
+        <li class="paragraph">Follows the bottom-up approach in program design</li>
+    </ul>
+
+    <div class="subTitle text-center">List of OOPS Concepts in Java with Examples</div>
+    <div class="subTitle">1.Objects and Classes </div>
+    <li class="paragraph">
+        Objects are runtime entities in an object-oriented system. An object can represent a person, a bank account, a place, a table of data. It may also represent user-defined data types like lists and vectors.
+    </li>
+    <li class="paragraph">
+        The collection of objects of similar types is termed as a class. For Example, apple, orange, and mango are the objects of the class Fruit. Classes behave like built-in data types of a programming language but are user-defined data types.
+    </li>
+    <img src="image/ObjectClass.png" alt="Objects and class" class="d-block mx-auto  ">
+
+    <div class="subTitle">2.Data Abstraction and Encapsulation </div>
+    <p class="paragraph">
+        The wrapping up of the data and methods into the single unit is known as encapsulation. The data is accessible only to those methods, which are wrapped in the class, and not to the outside world.
+    </p>
+    <img src="image/dataAbstraction.png" alt="Data Abstraction" class="d-block mx-auto  ">
+
+    <div class="subTitle">3.Inheritance</div>
+    <p class="paragraph">
+        Inheritance is the process by which objects of one class acquire some properties of objects of another class. Inheritance supports the concept of hierarchical classification.
+    </p>
+    <img src="image/Inheritance.png" alt="Inheritance" class="d-block mx-auto  ">
+    <p class="paragraph"> Types of Inheritance</p>
+    <ul>
+        <li class="paragraph">Single </li>
+        <li class="paragraph">Multiple </li>
+        <li class="paragraph">Multilevel</li>
+        <li class="paragraph">Hybrid </li>
+    </ul>
+
+    <div class="subTitle">4.Polymorphism </div>
+    <p class="paragraph">
+        Polymorphism is an important OOP concept; it means the ability to take many forms. For Example, an operation exhibits different behavior in different situations. The behavior depends on the type of data used in operation.
+    </p>
+    <p class="paragraph">
+        The figure below demonstrates that a single function name can be used to handle the different numbers and different types of arguments.
+    </p>
+    <img src="image/polymorphism.png" alt="polymorphism" class="d-block mx-auto  ">
+
+    <div class="subTitle">5.Dynamic Binding </div>
+    <p class="paragraph">Binding is the process of linking a procedure call to the code to be executed in response to the call. It means that the code associated with the given procedure call is not known until the time of the call at runtime.</p>
+    <p class="paragraph">Objects communicate with each other in OOPs The process of programming in case of OOP consists of the following:</p>
+    <ul>
+        <li class="paragraph">Creating classes defining objects and their behavior.</li>
+        <li class="paragraph">Creating objects </li>
+        <li class="paragraph">Establishing communication between objects.</li>
+    </ul>
+    <p class="paragraph">The network of Objects Communicating with Each Other</p>
+    <img src="image/dynamicBinding.png" alt="Dynamic Binding" class="d-block mx-auto  ">
+
+    <div class="subTitle">Benefits of OOPs Concept in Java</div>
+    <ul>
+        <li class="paragraph">Inheritance eliminates redundant code and enables reusability. </li>
+        <li class="paragraph">As Message passing allows communication with objects, this presents writing code from scratch every time. It is thus saving development time and higher productivity.</li> 
+        <li class="paragraph">Partitions work in a project based on classes and objects.</li>
+        <li class="paragraph">Systems up-gradation is easy.</li>
+    </ul>
+
+    <div class="subTitle">Applications of OOPs Concept in Java</div>
+    <ul>
+        <li class="paragraph">Real-time systems</li>
+        <li class="paragraph">Simulation and modeling </li>
+        <li class="paragraph">Object-oriented databases</li>
+        <li class="paragraph">Hypertext and Hypermedia</li>
+        <li class="paragraph">AI and expert systems</li>
+        <li class="paragraph">Neural networks and parallel programming </li>
+        <li class="paragraph">Automation systems</li>
+    </ul>
+
+    <div class="subTitle">Summary</div>
+    <p class="paragraph">
+        Java is a robust and scalable object-oriented programming language that is based on the concept of objects and classes. It offers features like inheritance, abstraction, encapsulation, and polymorphism for developing an efficient and reliable code.
+    </p> 
+</body>
+</html>

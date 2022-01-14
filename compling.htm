@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- favicon -->
+   <link rel="icon" href="image/logo.png" >
+   <!-- CSS Linked -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Title -->
+   <title>Compiling & Executing</title>
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body class="SlideBackground">
+    <div class="mainTitle text-center"> Compiling and Executing</div>
+    <div class="subTitle">Write source code</div>
+    <p class="paragraph">The following Java program is developed under Linux using a text editor and the command line. The process on other operating system should be similar, but is not covered in this description.</p>
+    <p class="paragraph">Select or create a new directory which will be used for your Java development. In this description the path \home\vogella\javastarter is used. On Microsoft Windows you might want to use c:\temp\javastarter. This path is called javadir in the following description.</p>
+    <p class="paragraph">Open a text editor which supports plain text, e.g., gedit under Linux or Notepad under Windows and write the following source code.</p>
+    <img src="image/intro1.png" alt="intro1" class="ImgCenter ImgHeight"><br>
+    <p class="paragraph">Save the source code in your javadir directory with the HelloWorld.java filename. The name of a Java source file must always equal the class name (within the source code) and end with the .java extension. In this example the filename must be HelloWorld.java, because the class is called HelloWorld.</p><br>
+
+    <div class="subTitle">Compile and run your Java program</div>
+    <p class="paragraph">Open a shell for command line access.</p>
+    <p class="paragraph">Switch to the javadir directory with the command cd javadir, for example, in the above example via the cd \home\vogella\javastarter command. Use the ls command (dir under Microsoft Windows) to verify that the source file is in the directory.</p>
+    <p class="paragraph">Compile your Java source file into a class file with the following command.</p>
+    <img src="image/compile1.png" alt="image" class="intro3Img">
+    <p class="paragraph">Afterwards list again the content of the directory with the ls or dir command. The directory contains now a file HelloWorld.class. If you see this file, you have successfully compiled your first Java source code into bytecode.</p>
+    <p class="paragraph">You can now start your compiled Java program. Ensure that you are still in the jardir directory and enter the following command to start your Java program.</p>
+    <img src="image/compile2.png" alt="" class="intro3Img">
+    <p class="paragraph">The system should write "Hello World" on the command line.</p>
+    <img src="image/compile3.png" alt="" class="d-block mx-auto w-50">
+
+    <div class="subTitle">Using the classpath</div>
+    <p class="paragraph">You can use the classpath to run the program from another place in your directory.</p>
+    <p class="paragraph">Switch to the command line, e.g., under Windows Start <lable class="font-weight-bolder">&#8250;&#x203A;</lable> Run cmd. Switch to any directory you want. Type:</p>
+    <img src="image/compile2.png" alt="" class="intro3Img">
+    <p class="paragraph">If you are not in the directory in which the compiled class is stored, then the system will show an error message: <i>Exception in thread "main" java.lang.NoClassDefFoundError: test/TestClass</i></p>
+    <p class="paragraph">To use the class, type the following command. Replace "mydirectory" with the directory which contains the test directory. You should again see the "HelloWorld" output.</p>
+    <img src="image/compileLast.png" alt="compileLast" class="intro3Img"><br><br>
+</body>
+</html>

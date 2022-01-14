@@ -1,0 +1,229 @@
+*{
+    user-select: none;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.navbar-brand{
+    padding: 5px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+/* INDEX PAGE STYLE */
+.landingPage{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url(../image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topic1,
+.topic2,
+.topic3,
+.topic4,
+.topic5,
+.topic6{
+    width: 300px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: white !important;
+    text-align: center;
+}
+.topic1{
+    top : 200px;
+    left: 190px;
+}
+.topic2{
+    top : 300px;
+    left: 190px;
+}
+.topic3{
+    top : 400px;
+    left: 190px;
+}
+.blogButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top : 170px;
+    position: absolute;
+    text-decoration: none !important;
+    left: 490px;
+    background-color: rgba(45, 255, 220, 0.76);
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    transition: 0.4s all ease-in;
+}
+.blogButton:hover{
+    color: whitesmoke;
+    background-color: rgba(45, 255, 220, 0.90);
+}
+.topic4{
+    top : 200px;
+    left: 790px;
+}
+.topic5{
+    top : 300px;
+    left: 790px;
+}
+.topic6{
+    top : 400px;
+    left: 790px;
+}
+.connectingLine1,
+.connectingLine2,
+.connectingLine3,
+.connectingLine4{
+    height: 2px;
+    position: absolute;
+    background-color: white;
+}
+.connectingLine1{
+    transform: rotate(45deg);
+    width: 25px;
+    top: 241px;
+    left: 486px;
+}
+.connectingLine2{
+    transform: rotate(-45deg);
+    width: 39px;
+    top: 419px;
+    left: 484px;
+}
+.connectingLine3{
+    transform: rotate(-45deg);
+    width: 25px;
+    top: 241px;
+    left: 769px;
+}
+.connectingLine4{
+    transform: rotate(45deg);
+    width: 39px;
+    top: 419px;
+    left: 757px;
+}
+
+/* MAIN FRAME */
+.SlideBackground{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.85)),url(../image/java.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 100px 0px 140px;
+}
+.mainTitle{
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.011em;
+    margin-top: 0.55em;
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 500;
+    color : rgba(41, 41, 41, 1);
+}
+.subTitle{
+    font-size: 36px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.003em;
+    line-height: 36px;
+    color : rgba(41, 41, 41, 1);
+    margin-top: 2.5rem;
+}
+.paragraph{
+    font-size: 21px;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    letter-spacing: -0.003em;
+    line-height: 32px;
+    margin-top: 1rem;
+}
+
+/* SIDEBAR STYLE */
+#navigationButton{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.486),rgba(255, 166, 0, 0.425), rgba(255, 255, 0, 0.514));
+    text-decoration: none !important;
+    width: 100%;
+    padding: 22px 15px;
+    color: black;
+    float: left;
+    border-radius: 40px 0px 0px 40px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: 0.5px solid rgb(255, 128, 128);
+}
+
+/* INTRODUCTION TO JAVA PAGE STYLE */
+.intro3Img{
+    width: 700px;
+}
+
+.ImgHeight{
+    width: 600px;
+    height: 130px;
+}
+
+/* JVM */
+.ImgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.architecture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 400px;
+}
+.figCaption{
+    color: black;
+    font-style: italic ;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 7px;
+}
+h1,h2{
+    color: brown;
+    text-align: center;
+}
+h3{
+    color: darkred;
+}
+
+/* TEAM */
+.card{
+    height: 200px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url(../image/background.jpg);
+}

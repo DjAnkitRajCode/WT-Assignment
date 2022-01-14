@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- favicon -->
+   <link rel="icon" href="image/logo.png" >
+   <!-- CSS Linked -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Title -->
+   <title>Java Virtual Machine</title>
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body class="SlideBackground">
+    <div class="mainTitle text-center">JVM : Java Virtual Machine</div>
+    <p class="paragraph">The JVM is the specification for a software program that executes code and provides the runtime environment for that code.
+    The JVM manages system memory and provides a portable execution environment for Java-based applications.</p>
+    
+    <div class="subTitle">It is:</div>
+    <p class="paragraph ml-5">A <strong>specification</strong> where working of Java Virtual Machine is specified. 
+        But implementation provider is independent to choose the algorithm.
+        </p>
+    <p class="paragraph ml-5">
+        An <strong>implementation</strong> is a computer program that meets the requirements of the JVM specification
+    </p>
+    <p class="paragraph ml-5">
+        <strong>Runtime Instance</strong> Whenever you write java command on the command prompt to run the java class, 
+        an instance of JVM is created.
+    </p><br>
+
+    <div class="subTitle">Here is how JVM works</div>
+    <p class="paragraph">First, Java code is complied into bytecode. This bytecode gets interpreted on different machines
+    Between host system and Java source, Bytecode is an intermediary language.<br>
+    JVM in Java is responsible for allocating memory space.</p><br>
+
+    <img src="image/working.jpg" alt="Working of JVM" class="ImgCenter">
+    <div class="figCaption">Working of Java Virtual Machine (JVM)</div>
+    
+    <p class="paragraph">Java Virtual machine(JVM) is a very important part of both JDK and JRE because it is contained or inbuilt in both. 
+    Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line hence it is also known as interpreter.</p><br>
+    
+    <div class="subTitle">JVM Architecture</div>
+    <p class="paragraph">Let's have a quick overview of the JVM architecture.
+    JVM architecture in Java contains classloader, memory area, execution engine etc.</p>
+    <img src="image/jvm.png" alt="JVM architecture" class="architecture">
+    <div class="figCaption">Java Virtual Machine Architecture</div>
+
+    <p class="paragraph">
+        <strong>ClassLoader</strong><br>
+        The class loader is a subsystem used for loading class files. 
+        It performs three major functions viz. Loading, Linking, and Initialization.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>Method Area</strong><br>
+        Method Area stores class structures like metadata, the constant runtime pool, and the code for methods.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>Heap</strong><br>
+        All the Objects, their related instance variables, and arrays are stored in the heap. 
+        This memory is common and shared across multiple threads.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>JVM language Stacks</strong><br>
+        Java language Stacks store local variables, and it’s partial results.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>PC Registers</strong><br>
+        PC register store the address of the Java virtual machine instruction which is currently executing.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>Native Method Stacks</strong><br>
+        Native method stacks hold the instruction of native code depends on the native library.
+    </p><br>
+
+    <p class="paragraph">
+        <strong>Execution Engine</strong><br>
+        It is a type of software used to test hardware, software, or complete systems. 
+    </p><br>
+
+    <p class="paragraph">
+        <strong>Native Method interface</strong><br>
+        It allows Java code which is running in a JVM to call by libraries and native applications.
+    </p><br>
+    
+    <p class="paragraph">
+        <strong>Native Method Libraries</strong><br>
+        Native Libraries is a collection of the Native Libraries(C, C++) which are needed by the Execution Engine.
+    </p><br><br>
+</body>
+</html>

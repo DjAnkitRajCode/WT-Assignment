@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- favicon -->
+   <link rel="icon" href="image/logo.png" >
+   <!-- CSS Linked -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Title -->
+   <title>JRE & JDK</title>
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body class="SlideBackground">
+    <div class="mainTitle text-center">JRE : Java Runtime Environment</div>
+    <p class="paragraph">
+        JRE is an acronym for Java Runtime Environment, 
+        is a software layer that runs on top of a computer’s operating system software 
+        and provides the class libraries 
+        and provides the minimum requirements for executing a Java application. 
+        It consists of the Java Virtual Machine (JVM), core classes, and supporting files for the smooth execution of the program.
+    </p><br>
+
+    <p class="paragraph">
+        The JRE is one of three interrelated components for developing and running Java programs.
+        The other two components are as follows:<br>
+        <lable class="paragraph ml-5" style="color: rgb(12, 106, 201);">1. Java Development Kit, or JDK</lable><br>
+        <lable class="paragraph ml-5" style="color: rgb(12, 106, 201);">2. Java Virtual Machine, or JVM</lable><br><br>
+        
+        <img src="image/jre2.png" alt="JRE" class="ImgCenter"><br>
+
+        The source Java code gets compiled and converted to Java bytecode. 
+        If we wish to run this bytecode on any platform, we require JRE.
+        It is the implementation of JVM. It physically exists. 
+        The JRE loads classes, verify access to memory, and retrieves the system resources.
+        Programs created with the JRE will run on all of the JVM's. 
+        In this way, the Java Runtime Environment is what enables a Java program to run in any operating system without modification.
+    </p><br><br>
+
+    <div class="mainTitle text-center"> JRE Runtime Architecture </div>
+    <p  class="paragraph">
+        The JRE and JDK interact with one another to create a sustainable runtime environment that enables the seamless execution of Java-based applications in virtually any operating system. 
+        The following make up the JRE runtime architecture:<br>
+            <lable class="ml-5">1. ClassLoader</lable><br>
+            <lable class="ml-5">2. Bytecode verifier</lable><br>
+            <lable class="ml-5">3. Interpreter</lable><br>
+    </p>
+
+    <div class="subTitle text-center">JDK : Java Development Kit </div>
+    <p class="paragraph">
+        The Java Development Kit (JDK) is an implementation of either one of the Java Platform, Standard Edition, Java Platform, Enterprise Edition, or Java Platform, Micro Edition platforms released by Oracle Corporation in the form of a binary product aimed at Java developers on Solaris, Linux, macOS or Windows.<br><br>
+
+        The JDK includes the Java Runtime Environment (JRE), an interpreter (java), a compiler (javac), an archiver (jar), a documentation generator (javadoc), and some other development tools. The Java Runtime Environment itself consists of the Java Virtual Machine (JVM), supporting files, core classes and a few other resources to finish the development of a Java application. Since the introduction of the Java platform, it has been by far the most widely used Software Development Kit (SDK).
+    </p>
+    <img src="image/jdkimg.png" alt="idkImg" class="d-block mx-auto">
+    <p class="paragraph">
+        Typically, if one is only interested in running Java programs on their machine or browser, They only need to install JRE. However, if they would like to develop an application and do Java programming, they will need JDK. The JDK is available for 64-bit x64 macOS (and that version also works with Rosetta 2), while an early access build (developer preview) from Microsoft is also available to support recent Apple M1 Macs.<br><br>
+
+        The JDK also comes with a complete Java Runtime Environment, usually called a private runtime, due to the fact that it is separated from the "regular" JRE and has extra contents. It consists of a Java Virtual Machine and all of the class libraries present in the production environment, as well as additional libraries only useful to developers, such as the internationalization libraries and the IDL libraries. Copies of the JDK also include a wide selection of example programs demonstrating the use of almost all portions of the Java API
+    </p>
+</body>
+</html>
